@@ -24,7 +24,7 @@ readLine.on('line', function (input) {
 });
 
 process.on('exit', code => {
-   code === 0 ? console.log('Bye-bye!') : console.log(`Got error with code: ${code}`);
+   code === 0 ? console.log('\nBye-bye!') : console.log(`Got error with code: ${code}`);
 });
 
 readLine.on('close', () => process.exit());
